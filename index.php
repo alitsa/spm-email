@@ -19,31 +19,31 @@
   <div class="panel panel-nav">
   <h1>Discover</h1>
   <p><strong>30 day offer</strong></p>
-  <table>
-    <tbody>
-      <tr><td>T</td><td><a href="?email=disc-aware">Become aware of trail</a></td></tr>
-      <tr><td>T + 14</td><td><a href="?email=disc-remind">Reminder to check it out</a></td></tr>
-      <tr><td>T + 21</td><td><a href="?email=disc-expire">Offer expires...</a></td></tr>
-    </tbody>
-  </table>
+  <p>T<br /><a href="?email=disc-aware">
+    Try Smart Plugin Manager at no cost
+  </a><p>
+  <p>T + 14<br /><a href="?email=disc-remind">
+    Re: Try Smart Plugin Manager at no cost
+  </a></p>
+  <p>T + 21<br /><a href="?email=disc-expire">
+    Trial offer enrollment window ends [Mon DD]
+  </a></p>
   <h1>Try</h1>
-  <p><strong>30 day trial</strong>The customer logged into the Portal and enabled one or more licenses</p>
-  <table>
-    <tbody>
-      <tr><td>T</td><td><a href="?email=try-intro">Congrats! Here how it works</a></td></tr>
-      <tr><td>T + 23</td><td><a href="?email=try-expire">Trial expiring soon</a></td></tr>
-      <tr><td>NA/A</td><td><a href="?email=try-use">SPM update email with feedback solicitation</a></td></tr>
-      <tr><td>T + 37</td><td><a href="?email=try-feedback">Why haven't you purchased?</a></td></tr>
-    </tbody>
-  </table>
+  The customer logged into the Portal and enabled one or more licenses</p>
+  <p>T<br /><a href="?email=try-intro">
+    Your SPM trial on [Account Name] has begun
+  </a></p>
+  <p>T + 23<br /><a href="?email=try-expire">
+    Your SPM trial for [Account Name] ends [Mon DD]</a>
+  </p>
+  <p>N/A<br /><a href="?email=try-use">
+    Plugin update: [Environment domain name]
+  </a></p>
   <h1>Buy</h1>
-  <p>Customer chose to puchase licenses during trial period</p>
-  <table>
-    <tbody>
-      <tr><td>T</td><td><a href="?email=buy-receipt">Why did you purchase?</a></td></tr>
-      <tr><td>T</td><td><a href="?email=buy-feedback">Why did you cancel?</a></td></tr>
-    </tbody>
-  </table>
+  <p>All customers who participated in the trial receive a follow-up email.
+  <p>T + 37<br /><a href="?email=buy-feedback">
+    How was your Smart Plugin Manager exeperience?
+  </a></p>
 </div>
 <div class="panel panel-content">
   <?php
