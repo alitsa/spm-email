@@ -17,8 +17,11 @@
 <body>
   <div class="panel-group">
   <div class="panel panel-nav">
+    <p>
+      The experiment lasts 90 days total. The conversion funnel to be measured has three phases: Discover, Try, and Buy. <a target="_blank" href="https://docs.google.com/presentation/d/1OesC9DGJUAqfLnf4E54czgYdGqtF2pt35sOivuvMaI0/edit?usp=sharing">Research plan</a>
+    </p>
   <h1>Discover</h1>
-  <p><strong>30 day offer</strong></p>
+  <p><strong>30 day enrollment window</strong></p>
   <p>T<br /><a href="?email=disc-aware">
     Try Smart Plugin Manager at no cost
   </a><p>
@@ -29,7 +32,8 @@
     Trial offer enrollment window ends [Mon DD]
   </a></p>
   <h1>Try</h1>
-  The customer logged into the Portal and enabled one or more licenses</p>
+  <p><strong>30 day trial period</strong>, beginning when a license is enabled</p>
+  <p>The customer logged into the Portal and enabled one or more licenses</p>
   <p>T<br /><a href="?email=try-intro">
     Your SPM trial on [Account Name] has begun
   </a></p>
@@ -40,8 +44,9 @@
     Plugin update: [Environment domain name]
   </a></p>
   <h1>Buy</h1>
+  <p><strong>30 day conversion window</strong>, beginning 60 days after initial invitations went out</p>
   <p>All customers who participated in the trial receive a follow-up email.
-  <p>T + 37<br /><a href="?email=buy-feedback">
+  <p>T + 30<br /><a href="?email=buy-feedback">
     How was your Smart Plugin Manager exeperience?
   </a></p>
 </div>
