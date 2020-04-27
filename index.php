@@ -8,15 +8,18 @@
   html, body {font-family: 'open sans', sans-serif; color: #002838; line-height: 1.6em;}
   a {color: #7E5CEF; text-decoration: none;}
   .panel-group {display:flex;}
-  .panel {padding: 2em;}
-  .panel-nav {width: 20em; border-right: 1px solid #9db7d1;}
+  .panel-content {padding: 2em;}
+  .panel-nav {width: 20em; border-right: 1px solid #9db7d1; height: 100vh; overflow-y: scroll;}
+  .panel-nav-content {padding: 2em;}
   .panel-nav td {padding-right: 1em;}
+  .panel-nav h4 {text-align: center;}
 </style>
 </head>
 
 <body>
   <div class="panel-group">
   <div class="panel panel-nav">
+    <div class="panel-nav-content">
     <p>
       The experiment lasts 90 days total. The conversion funnel to be measured has three phases: Discover, Try, and Buy. <a target="_blank" href="https://docs.google.com/presentation/d/1OesC9DGJUAqfLnf4E54czgYdGqtF2pt35sOivuvMaI0/edit?usp=sharing">Research plan</a>
     </p>
@@ -66,6 +69,7 @@ Or
   <p><a href="?email=buy-feedback">
     How was your Smart Plugin Manager exeperience?
   </a></p>
+</div>
 </div>
 <div class="panel panel-content">
   <?php
