@@ -22,31 +22,48 @@
     </p>
   <h1>Discover</h1>
   <p><strong>30 day enrollment window</strong></p>
-  <p>T<br /><a href="?email=disc-aware">
+  <h4>Day 1</h4>
+  <p><a href="?email=disc-aware">
     Try Smart Plugin Manager at no cost
   </a><p>
-  <p>T + 14<br /><a href="?email=disc-remind">
+  <h4>Day 14</h4>
+  <p><a href="?email=disc-remind">
     Re: Try Smart Plugin Manager at no cost
   </a></p>
-  <p>T + 21<br /><a href="?email=disc-expire">
+  <h4>Day 23</h4>
+  <p><a href="?email=disc-expire">
     Trial offer enrollment window ends [Mon DD]
   </a></p>
   <h1>Try</h1>
   <p><strong>30 day trial period</strong>, beginning when a license is enabled</p>
   <p>The customer logged into the Portal and enabled one or more licenses</p>
-  <p>T<br /><a href="?email=try-intro">
+  <h4>Day 1 of trial</h4>
+  <p><a href="?email=try-intro">
     Your SPM trial on [Account Name] has begun
   </a></p>
-  <p>T + 23<br /><a href="?email=try-expire">
-    Your SPM trial for [Account Name] ends [Mon DD]</a>
+  <h4>23 days into trial</h4>
+  <p>
+    <a href="?email=try-expire">
+    Your SPM trial for [Account Name] ends [Mon DD]
+  </a>
+</p>
+<p>
+Or
+</p>
+  <p>
+  <a href="?email=try-billed">
+  [Account Name] will be billed for Smart Plugin Manager [Mon DD]
+  </a>
   </p>
-  <p>N/A<br /><a href="?email=try-use">
+  <h4>As updates happen</h4>
+  <p><a href="?email=try-use">
     Plugin update: [Environment domain name]
   </a></p>
   <h1>Buy</h1>
   <p><strong>30 day conversion window</strong>, beginning 60 days after initial invitations went out</p>
   <p>All customers who participated in the trial receive a follow-up email.
-  <p>T + 30<br /><a href="?email=buy-feedback">
+  <h4>30 days after trial ends</h4>
+  <p><a href="?email=buy-feedback">
     How was your Smart Plugin Manager exeperience?
   </a></p>
 </div>
